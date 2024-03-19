@@ -14,14 +14,14 @@ namespace ConsoleAppCalcCaso
             string oper= Console.ReadLine();
 
             Console.Write("Escolha um número:");
-            int n1 = int.Parse(Console.ReadLine());
+            double n1 = double.Parse(Console.ReadLine());
             Console.Write("Escolha outro número: ");
-            int n2 = int.Parse(Console.ReadLine());
+            double n2 = double.Parse(Console.ReadLine());
 
             switch (oper)
             {
                 case "*" :
-                    int result = n1 * n2;
+                    double result = n1 * n2;
                     Console.Write("O resultado é: " + result); 
                     break;
                 case "+":
